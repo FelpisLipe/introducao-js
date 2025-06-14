@@ -14,15 +14,6 @@ for (let i = 0; i < pacientes.length; i++) {
 
   var pesoEhValido = validaPeso(peso);
   var alturaEhValida = validaAltura(altura);
-  // if (!pesoEhValido) {
-  //   console.log("Peso inválido.");
-  //   pesoEhValido = false;
-  // }
-  // if (!alturaEhValida) {
-  //   console.log("Altura inválida.");
-  //   alturaEhValida = false;
-  // }
-
 
   var tdImc = paciente.querySelector(".info-imc");
   if (pesoEhValido && alturaEhValida) {
